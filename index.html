@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BedrockConnect Guide</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0f172a;
+        --panel: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+        --border: #334155;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #020617, #111827 70%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+      .hero {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .hero img { width: 200px; border-radius: 12px; }
+      .badges { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 0.8rem 0 1rem; }
+      h1, h2, h3 { line-height: 1.2; }
+      h2 { margin-top: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+      h3 { margin-top: 1.2rem; }
+      a { color: var(--accent); }
+      .note {
+        font-size: 0.95rem;
+        color: var(--muted);
+        border-left: 3px solid var(--accent);
+        padding: 0.75rem 1rem;
+        background: rgba(56, 189, 248, 0.08);
+        border-radius: 0.4rem;
+      }
+      .panel {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid var(--border);
+        border-radius: 0.65rem;
+        padding: 0.75rem 1rem;
+        margin: 0.75rem 0;
+      }
+      code, pre {
+        font-family: "SFMono-Regular", Consolas, monospace;
+      }
+      pre {
+        background: #020617;
+        padding: 1rem;
+        border-radius: 0.6rem;
+        overflow-x: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 0.8rem;
+      }
+      th, td { border: 1px solid var(--border); padding: 0.6rem 0.75rem; text-align: left; }
+      th { background: rgba(255,255,255,0.06); }
+      .center { text-align: center; }
+      .sponsors img { max-width: 100%; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div>
+          <h1>BedrockConnect Setup Guide</h1>
+          <div class="badges"></div>
+        </div>
+      </section>
+
+      <h2>⭐ Quick setup</h2>
+      <p>Below are instructions for setting up BedrockConnect on your game console; it typically takes only a few minutes to get setup.</p>
+
+      <h3>DNS Method (recommended, no download required)</h3>
+      <div class="panel">
+        <p><strong>Nintendo Switch</strong>:</p>
+        <ul>
+          <li>Go into your console's internet settings, and set the primary DNS to 104.238.130.180 and secondary DNS to 8.8.8.8.</li>
+          <li>Open Minecraft and go to the "Servers" tab. Join a redirect-compatible featured server to open BedrockConnect.</li>
+          <li><strong>Redirect-compatible servers</strong>: Mineville, Lifeboat, Enchanted, Galaxite, The Hive.</li>
+          <li>Video walkthrough: <a href="https://www.youtube.com/watch?v=zalT_oR1nPM">https://www.youtube.com/watch?v=zalT_oR1nPM</a></li>
+        </ul>
+
+        <p><strong>Xbox</strong>:</p>
+        <ul>
+          <li>Go into your console's internet settings, and set the primary DNS to 104.238.130.180 and secondary DNS to 8.8.8.8.</li>
+          <li>Open Minecraft and go to the "Servers" tab. Join a redirect-compatible featured server to open BedrockConnect.</li>
+          <li><strong>Redirect-compatible servers</strong>: Mineville, Lifeboat, Enchanted, Galaxite, The Hive.</li>
+          <li>Video walkthrough: <a href="https://www.youtube.com/watch?v=g8mHvasVHMs">https://www.youtube.com/watch?v=g8mHvasVHMs</a></li>
+        </ul>
+
+        <p><strong>PlayStation</strong>:</p>
+        <ul>
+          <li>Go into your console's internet settings, and set the primary DNS to 45.55.68.52 and secondary DNS to 8.8.8.8.</li>
+          <li>Open Minecraft and go to the "Servers" tab. Join a redirect-compatible featured server to open BedrockConnect.</li>
+          <li><strong>Redirect-compatible servers</strong>: Mineville, Lifeboat, Enchanted, Galaxite, The Hive.</li>
+          <li>Video walkthrough (PS5): <a href="https://www.youtube.com/watch?v=fDmTWBL-_tA">https://www.youtube.com/watch?v=fDmTWBL-_tA</a></li>
+        </ul>
+
+        <h4>How to change DNS on PS5</h4>
+        <ol>
+          <li>In the PS5 home screen, go to "Settings" and then "Network".</li>
+          <li>Select "Settings" and choose "Set up internet connection".</li>
+          <li>In "Advance Settings", set the "DNS settings" to "Manual".</li>
+          <li>Enter 45.55.68.52 for the primary DNS and 8.8.8.8 for the secondary DNS, and select "Ok".</li>
+          <li>Wait for connection to test.</li>
+        </ol>
+
+        <h4>How to change DNS on PS4</h4>
+        <ol>
+          <li>In the PS4 home screen, go to "Settings" and then "Network".</li>
+          <li>Select "Set up internet connection".</li>
+          <li>Select your internet's connection type.</li>
+          <li>When prompted for how to set up the internet connection, select "Custom".</li>
+          <li>Select your connection from the list.</li>
+          <li>Select "Automatic" for "IP address settings".</li>
+          <li>Select "Do not specify" for "DHCP host name".</li>
+          <li>For the "DNS settings" screen, select "Manual".</li>
+          <li>Enter 45.55.68.52 for the primary DNS and 8.8.8.8 for the secondary DNS, and click "Next".</li>
+          <li>Select "Automatic" for "MTU settings".</li>
+          <li>Select "Do not use" for "Proxy server".</li>
+          <li>Test connection.</li>
+        </ol>
+      </div>
+
+      <p style="margin-top: 2rem;"><a href="https://bcstatus.xyz/status/bedrock" target="_blank" rel="noopener noreferrer">Backend Status Page</a></p>
+    </main>
+  </body>
+</html>
